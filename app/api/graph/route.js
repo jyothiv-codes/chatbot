@@ -10,7 +10,7 @@ export async function POST(req) {
     }
 
     // // Send the user's query to the external API (Fast API)
-    const apiUrl = `https://07a9-34-75-24-62.ngrok-free.app/generate_knowledge_graph?kg_query=${encodeURIComponent(kg_query)}`;
+    const apiUrl = `https://c982-34-19-111-194.ngrok-free.app/generate_knowledge_graph?kg_query=${encodeURIComponent(kg_query)}`;
 
     // Make the request to the external API
     const response = await fetch(apiUrl, { method: 'GET' });

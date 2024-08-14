@@ -9,7 +9,7 @@ export async function POST(req) {
   try {
     // Send the user's message to the external API (Fast API)
     const externalApiResponse = await fetch(
-      `https://07a9-34-75-24-62.ngrok-free.app/answer_questions?question=${encodeURIComponent(userMessage)}`,
+      `https://bd76-34-19-111-194.ngrok-free.app/answer_questions?question=${encodeURIComponent(userMessage)}`,
       {
         method: 'GET',
       }
